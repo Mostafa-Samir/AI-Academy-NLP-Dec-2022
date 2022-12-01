@@ -1,3 +1,5 @@
+#!/bin/bash
+
 conda create -n ai-academy-env python=3.8
 conda deactivate && \
     conda activate ai-academy-env
