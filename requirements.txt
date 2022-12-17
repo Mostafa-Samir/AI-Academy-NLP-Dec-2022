@@ -6,3 +6,4 @@ matplotlib
 jupyter
 ipykernel
 nltk
+scikit-learn
