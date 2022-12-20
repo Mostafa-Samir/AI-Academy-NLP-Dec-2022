@@ -24,8 +24,8 @@ The very first thing we need to do is to prepare your local environemnt to run t
 
 2. Clone this repository to your machine.
 3. Go to the cloned repositoiry location and:
-    - For Windows machines: TBD
-    - For macOS/Linux-based: Open your terminal and run `bash setup-env.py`.
+    - For Windows machines: Open your command prompt and run `setup-env.bat`
+    - For macOS/Linux-based: Open your terminal and run `bash setup-env.sh`.
     
     This step will create a conda environement in your machine called `ai-academy-env`, this environemnt has all the dependencies required to run the labs. Make sure that you have this environemnt activated in your terminal before running commands descitrbed next. To activate the environemnt, simply run `conda activate ai-academy-env`.
 
