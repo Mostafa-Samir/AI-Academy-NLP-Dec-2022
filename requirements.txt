@@ -8,3 +8,6 @@ ipykernel
 nltk
 scikit-learn
 spacy
+transformers
+torch
+sentencepiece
