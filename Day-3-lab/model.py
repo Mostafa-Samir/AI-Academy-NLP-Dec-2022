@@ -47,9 +47,9 @@ class TransformerModel(Model):
     def predict(self, text: Iterable[str]) -> Iterable[str]:
         x = self.tokenizer(text, padding='longest', return_tensors='pt')
         with torch.no_grad():
-            logits = self.model(**x)
+            output = self.model(**x)
         
-        preds = np.argmax(logits.detach().cpu().numpy(), axis=1)
+        preds = np.argmax(output.logits.detach().cpu().numpy(), axis=1)
         textual_preds = [self.id2label[label_id] for label_id in preds]
 
         return textual_preds
