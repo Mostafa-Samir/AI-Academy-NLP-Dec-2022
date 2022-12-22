@@ -10,3 +10,7 @@ spacy
 transformers
 torch
 sentencepiece
+fastapi
+streamlit
+streamlit-server-state
+uvicorn
